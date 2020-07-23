@@ -7,6 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a{
+    text-decoration: none;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -37,7 +40,30 @@ label{
     font-weight: 400;
     font-family: "helvetica";
 }
+#bloc-7 p{
+    display:flex;
+    justify-content: center;
+}
 
+#bloc-4-portfolio .col-sm-6{
+    width:50%;
+}
+.col-sm-6{
+    width:100%;
+}
+#bloc-7 .bloc-lg {
+    padding-bottom: 3rem !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.col-sm-4{
+    padding-top:20px;
+}
+
+ul{
+    padding-left: 10px;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -50,10 +76,10 @@ label{
     position: relative;
 }
 
-.bloc .container {
+/*.bloc .container {
     padding-left: 0;
     padding-right: 0;
-}
+}*/
 
 .bloc-lg {
     padding: 50px 50px;
@@ -517,7 +543,7 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+    box-shadow: none;    
 }
 
 .scrollToTop {
@@ -662,9 +688,9 @@ a {
     color: #eee;
 }
 
-.container {
+/*.container {
     max-width: 1000px;
-}
+}*/
 
 .hero-bloc-text {
     font-size: 38px;
@@ -691,10 +717,8 @@ a {
     flex-direction: column;
     justify-content: center;
 }
-#bloc-7 .row{
-    display:flex;
-    justify-content: center;
-    margin-left: 100px;
+#bloc-7 .bloc-lg .row{
+    display:grid;    
 }   
 
 label{
