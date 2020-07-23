@@ -34,6 +34,8 @@ a:hover {
 label{
     display:flex;
     flex-direction:column;
+    font-weight: 400;
+    font-family: "helvetica";
 }
 
 .bloc {
@@ -109,7 +111,7 @@ label{
 }
 
 .d-bloc {
-    color: #2F4F4F;
+    color: rgba(255,255,255,.9);
 }
 
 .d-bloc button:hover {
@@ -292,7 +294,7 @@ label{
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 60px;
 }
 
 .navbar {
@@ -649,17 +651,15 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
-p,
-label,
 .btn,
 a {
-    font-family: "helvetica";
+    
     font-weight: 400;
-    color: #575757;
+    font-family: "helvetica";
+    color: #eee;
 }
 
 .container {
@@ -683,10 +683,25 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
+.white{
+    color:rgba(255, 255, 255, .9);
+}
+#form_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#bloc-7 .row{
+    display:flex;
+    justify-content: center;
+    margin-left: 100px;
+}   
 
+label{
+    font-size:20px;        
+}
 p {
-    font-size: 15px;
-    color:#FFFFFF;
+    font-size: 15px;   
 }
 
 .tight-width-whitespace {
