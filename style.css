@@ -45,6 +45,9 @@ label{
     justify-content: center;
 }
 
+#bloc-8 .col-sm-4 a{
+    color: #333333;
+}
 #bloc-4-portfolio .col-sm-6{
     width:50%;
 }
@@ -874,7 +877,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
