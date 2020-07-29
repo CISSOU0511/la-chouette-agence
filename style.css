@@ -768,7 +768,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-    color:#C24509;
+    color:#F3856C;
 }
 
 .h3 {
@@ -790,7 +790,7 @@ h2 {
 }
 
 h1 {
-    color:#C24509;    
+    color:#F3856C;    
 }
 
 h4 {
@@ -836,7 +836,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #C24509;
+    background-color: #F3856C;
 }
 
 /*.tc-white {
@@ -844,12 +844,12 @@ h4 {
 }*/
 
 .btn-atomic-tangerine {
-    background: #C24509;
+    background: #F3856C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #C24509!important;
+    background: #F3856C!important;
     color: #FFFFFF!important;
 }
 
@@ -862,11 +862,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #C24509!important;
+    color: #F3856C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #C24509!important;
+    color: #F3856C!important;
 }
 
 .icon-dark-slate-blue {
