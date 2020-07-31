@@ -1,5 +1,5 @@
 <IfModule mod-expires.c>
-	Expires active On
+	ExpiresActive On
 	ExpiresDefault "access plus 1 month"
 	ExpiresByType text/css "access plus 1 week"
 </IfModule>
