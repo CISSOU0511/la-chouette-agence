@@ -2,7 +2,10 @@
 	Expires acive On
 	ExpiresDefault "access plus 1 month"
 	ExpiresByType text/css "access plus 1 week"
-	ExpiresByType image/png "access plus 1month"
+	ExpiresByType text/js "acces plus 1 month"
+	ExpiresByType image/png "access plus 1 month"
 	ExpiresByType image/jpg "access plus 1 month"
+	ExpiresByType text/min.css "acces plus 1 week"
+	ExpiresByType text/min.js "acces plus 1 month"
 </Ifmodule>
 	
