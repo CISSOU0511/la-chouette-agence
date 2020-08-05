@@ -416,6 +416,9 @@ margin-right: auto;
     }
     h3{
         font-size: 20px;
+    }
+    .img-responsive .portfolio-thumb{
+        width:100%;
     }       
 }
 @media (min-width: 768px) {    
