@@ -124,6 +124,11 @@ ul{
     left: 0;
     right: 0;
 }
+.img-responsive{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 
 .texture-paper::before {
     background: url("img/texture-paper-compressor-min.png");
