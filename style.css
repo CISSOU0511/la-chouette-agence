@@ -401,6 +401,9 @@ margin-right: auto;
     z-index: 2;
 }
 @media only screen and (min-width:300px) and (max-width:767px){
+    #bloc-4-portfolio .col-sm-6{
+        width:100%;
+    }
     .social{
         display: flex;
         justify-content: space-between;
@@ -945,10 +948,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -957,8 +960,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+       /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
