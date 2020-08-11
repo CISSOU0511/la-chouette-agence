@@ -51,9 +51,6 @@ label{
 #bloc-4-portfolio .col-sm-6{
     width:50%;
 }
-.col-sm-6{
-    width:100%;
-}
 #bloc-7 .bloc-lg {
     padding-bottom: 3rem !important;
     display: flex;
@@ -401,12 +398,9 @@ margin-right: auto;
     z-index: 2;
 }
 @media only screen and (min-width:300px) and (max-width:767px){
-    #bloc-4-portfolio .col-sm-6{
-        width:100%;
-    }
     .social{
-        display: flex;
-        justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     }
     .col-sm-4{
         padding-left: 30px;
