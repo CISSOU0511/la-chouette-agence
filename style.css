@@ -20,7 +20,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-    
+#bloc-7 .col-sm-6{
+    width:100%;
+} 
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
